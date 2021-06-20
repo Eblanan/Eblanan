@@ -80,6 +80,7 @@ li:hover{
     justify-content: center;
     font-size: 25px;
     padding: 10px;
+    flex-direction: column-reverse;
 }
 .price {
     height: 50px;
@@ -91,6 +92,7 @@ li:hover{
 img {
     border-radius: 20px;
     margin-left: 50px;
+    flex-direction: column-reverse;
 }
 .hover-icon:hover {
     background-color: #b9b7b7;
@@ -108,7 +110,8 @@ h1 {
     .img {
         border-radius: 20px;
         margin-left: 30%;
-        width: 45%;
+        width: 35%;
+        flex-direction: column;
     }
     h1 {
         display: flex;
